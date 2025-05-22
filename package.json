@@ -1,0 +1,30 @@
+{
+  "name": "fastify-api-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only --exit-child src/app.ts",
+    "prisma": "prisma"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cookie": "^7.4.0",
+    "@fastify/cors": "^8.5.0",
+    "@fastify/jwt": "^6.7.1",
+    "@prisma/client": "^6.8.2",
+    "express": "^5.1.0",
+    "fastify": "^4.29.1",
+    "fastify-zod": "^1.4.0",
+    "zod": "^3.24.4",
+    "zod-to-json-schema": "^3.24.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "prisma": "^6.8.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
